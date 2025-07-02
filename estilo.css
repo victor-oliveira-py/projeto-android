@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+VIC+WA+NT+Beginner&family=Playwrite+RO&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #c5ebd6;
+
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom, rgba(90, 250, 111, 0.815) 2%, rgba(0, 0, 0, 0.849));
+    color: white;
+}
+
+header > h1{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.568);
+    font-size: 3em;
+}
+
+nav{
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: left
+}
+
+nav > a{
+    margin-right: 35px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav > a:hover{
+      color: limegreen;
+  text-shadow: 0 0 8px limegreen;
+    background-color: rgb(9, 71, 9);
+    border-radius: 10px;
+}
+
+@keyframes pisco {
+    0% { opacity: 1;}
+    50% {opacity: 0.4;}
+    100% {opacity: 1;}
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: left
+    
+    
+}
+
+main > .video-android{
+    display: block;
+    margin: auto;
+    padding: -10px;
+
+}
+
+main p{
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main  > h1{
+    color: darkgreen;
+}
+
+main img{
+    width: 100%;
+}
+
+
+
+@media (max-width: 1000px){
+    main{
+        font-size: 3vw;
+        width: 500px;
+}
+}
+
+article{
+    padding-top: 20px;
+    text-align: left;
+    text-indent: 25px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: rgb(83, 248, 171);
+}
+ 
+main img.pequeno{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.doto-titulo {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.degrade{
+    color: darkgreen;
+    background-image: linear-gradient(to right, rgba(60, 136, 60, 0.527), transparent);
+}
+strong{
+    color: green;
+}
+
+.bugdroid{
+    display: block;
+    margin: auto;
+}
+
+div.video-android{
+    background-color: rgb(2, 56, 9);
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video-android > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#Adicional{
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    background-color: rgb(2, 56, 9);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-adicional{
+    background-color: rgb(83, 248, 171);
+    box-shadow: 0px 8px 155px 2px rgba(0, 0, 0, 0.253);
+}
+
+.info-adicional > p{
+    padding: 10px;
+}
+
+.lista-versoes {
+    display: grid;
+    list-style-position: inside;
+    grid-template-columns: 1fr 1fr; /* 2 colunas */
+    gap: 5px; /* espaçamento entre colunas e linhas */
+    list-style-type: '\2714\00A0';
+    padding: 0;
+}
+
+.lista-versoes li {
+    margin: 5px 0;
+}
+
+.link-verde{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+aside{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(2, 56, 9);
+    color: white;
+    padding: 10px;
+}
+
