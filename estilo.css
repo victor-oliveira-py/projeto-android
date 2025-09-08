@@ -16,7 +16,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background-image: linear-gradient(to bottom, rgba(90, 250, 111, 0.815) 2%, rgba(0, 0, 0, 0.849));
     color: white;
 }
@@ -26,15 +26,20 @@ header > h1{
     font-size: 3em;
 }
 
+header > p{
+    font-size: 20px;
+}
+
 nav{
     margin-top: 40px;
     margin-left: 10px;
+    padding-bottom: 10px;
     text-align: left
 }
 
 nav > a{
     margin-right: 35px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -44,7 +49,7 @@ nav > a{
 nav > a:hover{
       color: limegreen;
   text-shadow: 0 0 8px limegreen;
-    background-color: rgb(9, 71, 9);
+    background-color: rgba(7, 49, 7, 0.767);
     border-radius: 10px;
 }
 
@@ -93,6 +98,10 @@ main  > h1{
 
 main img{
     width: 100%;
+}
+
+section#historia{
+    color: darkgreen;
 }
 
 .borda-android{
